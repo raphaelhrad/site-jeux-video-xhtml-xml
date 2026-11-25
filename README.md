@@ -9,17 +9,19 @@ Ce projet utilise XHTML, CSS et TypeScript, ainsi que la modélisation de donné
 
 ### Arboresence du projet
 
+```text
 site-jeux-video-xhtml-xml/
 ├── .gitignore
 ├── README.md
 ├── index.xhtml                # Page d'accueil du site
 ├── code/
-    ├── javascript/                       # Scripts JavaScript 
-    ├── typescript/                       # Scripts TypeScript 
+│   ├── javascript/            # Scripts JavaScript compilés
+│   └── typescript/            # Scripts TypeScript sources
 ├── content/                   # Pages de contenu XHTML
-│   ├── collection/            # Fiches détaillées des jeux 
+│   ├── collection/            # Fiches détaillées des jeux
 │   ├── forms/                 # Livre d'or et suggestion de jeux
 │   └── miscellaneous/         # Sources et guide des styles
 ├── images/                    # Icônes et visuels des jeux
-├── styles/                    # Feuilles pour le style principal et alternatif (*alt.css)
-├── xml/                       # Données XML, grammaire DTD et feuille XSLT
+├── styles/                    # Feuilles de style principal et alternatif (*alt.css)
+└── xml/                       # Données XML, grammaire DTD et feuille XSLT
+```
