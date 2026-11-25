@@ -1,0 +1,13 @@
+/*Raphaël Heraud*/
+
+@import url("authors.css") ;
+
+.link {
+    background: none !important;
+    border: none !important;
+    text-decoration: underline !important;
+}
+
+tr + tr {
+    white-space: nowrap;
+}

@@ -1,0 +1,99 @@
+/*Cloé Biringer & Raphaël Heraud*/
+@import url("stylepagexml.css");
+
+[type="submit"] {
+    display: inline-block;
+    padding: 0.5rem;
+    background: var(--gradient-backoff-background);
+    background: var(--gradient-background);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    border: solid 2px var(--primary-color);
+    margin: 0.5rem;
+}
+
+legend {
+    font-weight: bold;
+}
+
+select {
+    width: 50px;
+    height: 2rem;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid var(--primary-color);
+    border-radius: 1em;
+}
+
+fieldset {
+    border: 1px solid var(--primary-color);
+}
+
+div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+input, textarea, select {
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    color: black;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+input[type="text"], input[type="date"], input[type="email"], textarea {
+    width: 300px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button, button, .validate-button {
+    padding-left: 90px;
+    margin-left: 0.5em;
+}
+
+#switch, button, .validate-button {
+    margin: 0 var(--padding-main);
+}
+
+.top-bar {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+button, .validate-button {
+    display: inline-block;
+    padding: 0.5rem;
+    background: var(--gradient-backoff-background);
+    background: var(--gradient-background);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    border: solid 2px var(--primary-color);
+    cursor: pointer;
+    margin: 0.1rem;
+    font-size: 1rem;
+    width: max-content;
+    font-family: 'Work Sans', sans-serif;
+}

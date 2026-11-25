@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nos jeux vidéo préférés</title>
+    <link rel="stylesheet" href="styles/index.css" title="Style principal"/>
+    <link rel="alternate stylesheet" href="styles/indexalt.css" title="Style alternatif"/>
+
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <span id="date"> </span>
+        <button type="button" id="switch">Changer de style</button>
+      </div>
+      <h1>Nos jeux vidéos préférés</h1>
+      <div id="carousel">
+        <button id="previousButton" aria-label="image précédente">
+          <svg
+            width="26.509"
+            height="40"
+            fill="#000000"
+            version="1.1"
+            viewBox="0 0 16.237 24.5"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g transform="matrix(.05 0 0 .05 -4.1315 0)">
+              <polygon
+                points="332.67 0 407.37 76.493 235.4 245 407.37 413.51 332.67 490 82.631 245"
+              />
+            </g>
+          </svg>
+        </button>
+        <img
+          id="carouselImage"
+          src="images/dofus.jpg"
+          alt="Image de kirby le meilleur des personnages de tous les temps"
+        />
+        <button id="nextButton" aria-label="image suivante">
+          <svg
+            width="26.509"
+            height="40"
+            fill="#000000"
+            version="1.1"
+            viewBox="0 0 16.237 24.5"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g transform="matrix(-.05 0 0 -.05 20.368 24.5)">
+              <polygon
+                points="235.4 245 407.37 413.51 332.67 490 82.631 245 332.67 0 407.37 76.493"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <h2>Bienvenue sur notre site internet !</h2>
+      <p>
+        Nous avons décidé de créer une collection sur nos jeux vidéos préférés.
+        Vous pourrez retrouver la liste de plusieurs jeux vidéos avec des
+        descriptions et des reviews.
+      </p>
+      <h3>Voici nos pages concernant les jeux vidéos</h3>
+      <nav>
+        <ul>
+          <li>
+            <a href="content/collection/dofus.xhtml">Dofus</a>
+          </li>
+          <li>
+            <a href="content/collection/mk8.xhtml">Mario Kart 8 Deluxe</a>
+          </li>
+          <li>
+            <a href="content/collection/lis.xhtml">Life Is Strange</a>
+          </li>
+          <li>
+            <a href="content/collection/tomodachilife.xhtml">Tomodachi Life</a>
+          </li>
+          <li>
+            <a onclick="redirectRandomSite()">Page aléatoire</a>
+          </li>
+        </ul>
+      </nav>
+      <h2>Voici les liens vers les autres pages</h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="content/forms/livredor.xhtml">Livre d'or</a>
+          </li>
+          <li>
+            <a href="content/forms/suggestionjeux.xhtml">Suggestions de jeux</a>
+          </li>
+          <li>
+            <a href="content/miscellaneous/sources.xhtml">Sources</a>
+          </li>
+          <li>
+            <a href="styles/styles.xhtml">Styles</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+    <script async="async" src="code/javascript/carousel.js"> </script>
+    <script async="async" src="code/javascript/randompage.js"> </script>
+    <script defer="defer" src="code/javascript/foreverypage.js"> </script>
+  </body>
+</html>

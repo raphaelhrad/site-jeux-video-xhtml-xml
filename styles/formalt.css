@@ -1,0 +1,15 @@
+/*Cloé Biringer & Raphaël Heraud*/
+@import url("stylepagexmlalt.css");
+@import url("form.css");
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+fieldset {
+    border: 2px solid black;
+}

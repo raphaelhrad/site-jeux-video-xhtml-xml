@@ -1,0 +1,93 @@
+<!--Raphaël Heraud-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <title>
+    Vérification des contraintes de style
+  </title>
+  <link rel="stylesheet" href="styles.css" title="Style principal"/>
+  <link rel="alternate stylesheet" href="stylesalt.css" title="Style alternatif"/>
+</head>
+<body>
+  <div class="top-bar">
+    <span id="date"></span>
+    <button type="button" id="switch">Changer de style</button>
+  </div>
+<h1> Vérification des contraintes de style </h1>
+
+<table>
+  <thead>
+  <tr>
+    <th> Contrainte </th> <th> Fichiers de style </th> <th> Lignes </th>
+    <th>  Sélecteurs  </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td> Sélecteurs d'éléments </td>
+    <td> <a class="link" href="index.css">index.css</a></td>
+    <td> Ligne 14</td>
+    <td> body</td>
+  </tr>
+  <tr>
+    <td rowspan="2"> Sélecteurs via id et class </td>
+    <td> <a class="link" href="index.css">index.css</a></td>
+    <td> Ligne 38 (id)</td>
+    <td> #carousel </td>
+  </tr>
+  <tr>
+    <td> <a class="link" href="stylepagexml.css">stylepagexml.css</a></td>
+    <td> Ligne 36 (class) </td>
+    <td> .section </td>
+  </tr>
+  <tr>
+    <td> Sélecteurs d'enfants </td>
+    <td> <a class="link" href="authors.css">authors.css</a> </td>
+    <td> Ligne 12</td>
+    <td> tr > th</td>
+  </tr>
+  <tr>
+    <td> Sélecteurs de descendants </td>
+    <td> <a class="link" href="index.css">index.css</a></td>
+    <td> Ligne 86</td>
+    <td> nav ul</td>
+  </tr>
+  <tr>
+    <td> Sélecteurs d'éléments adjacents </td>
+    <td> <a class="link" href="styles.css">styles.css</a></td>
+    <td> Ligne 9</td>
+    <td> tr + tr</td>
+  </tr>
+  <tr>
+    <td> Sélecteurs via des pseudo-classes </td>
+    <td> <a class="link" href="stylepagexml.css">stylepagexml.css</a></td>
+    <td> Ligne 56</td>
+    <td> .section:nth-child(odd)</td>
+  </tr>
+  <tr>
+    <td> Sélecteurs via des pseudo-éléments </td>
+    <td> <a class="link" href="sources.css">sources.css</a></td>
+    <td> Ligne 31</td>
+    <td> li::marker </td>
+  </tr>
+  <tr>
+    <td> Sélecteurs via des attributs autres qu'id et class </td>
+    <td> <a class="link" href="stylepagexmlalt.css">stylepagexml.alt</a></td>
+    <td> Ligne 11</td>
+    <td> img[src*="info"]</td>
+  </tr>
+  <tr>
+    <td> Combinaison de sélecteurs </td>
+    <td> <a class="link" href="stylepagexml.css">stylepagexml.css</a></td>
+    <td> Ligne 70</td>
+    <td> .article h3 span:first-child::after</td>
+  </tr>
+  </tbody>
+</table>
+  <div class="retour-accueil">
+    <a href="../index.xhtml">Retour à la page d'accueil</a>
+  </div>
+  <script defer="defer" src="../Code/Javascript/foreverypage.js"> </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!--Cloé Biringer & Raphaël Heraud-->
+<!ENTITY % day
+    "(1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+    10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+    20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 |
+    30 | 31)">
+
+<!ENTITY % month
+    "(Janvier | Fevrier | Mars | Avril | Mai | Juin | Juillet | Aout | Septembre | Octobre | Novembre | Décembre)">
+
+<!ELEMENT videogame (game, comment?, reviews*)>
+
+<!ELEMENT game (title, date, platform+, developer+, genre+, plot)>
+<!ATTLIST game
+        id ID #REQUIRED
+        lang CDATA #IMPLIED>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT date EMPTY>
+<!ATTLIST date
+          day %day; #IMPLIED
+          month %month; #IMPLIED
+          year CDATA #REQUIRED>
+
+<!ELEMENT platform (#PCDATA)>
+<!ELEMENT developer (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT plot (#PCDATA)>
+
+<!ELEMENT comment (description)>
+<!ATTLIST comment
+          author CDATA #REQUIRED>
+
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT reviews (review+)>
+
+<!ELEMENT review (reviewer, arguments)>
+<!ATTLIST review
+          rating CDATA #REQUIRED>
+<!ELEMENT reviewer (#PCDATA)>
+<!ELEMENT arguments (#PCDATA)>
