@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videogame SYSTEM "videogame.dtd">
+<!--Cloé Biringer-->
+
+<videogame>
+    <game id="TML" lang="FR">
+        <title>Tomodachi Life</title>
+        <date day="18"
+              month="Avril"
+              year="2013"/>
+        <platform>3DS</platform>
+        <developer>Nintendo</developer>
+        <genre>Social simulation game</genre>
+        <plot>Tomodachi Life est un jeu de simulation de vie qui prend place sur une île virtuelle dont le nom est donné par le joueur.
+        L'île compte au total vingt-quatre lieux dans lesquels différentes activités sont proposées.
+        Il y a tout d'abord les bâtiments de vie dans lesquels vivent les Mii du joueur.
+        </plot>
+    </game>
+    <comment author="Cloé">
+        <description>Tomodachi life est un des jeux de mon enfance, ce qui est sympa, c'est qu'on peut créer nos propres miis qui peuvent donc avoir une vie dans ce jeu.
+        Ensuite, il y a pleins d'activités différentes qui sont très amusantes, comme les concerts, la borne d'arcade, les barbecues...J'ai passé de très bonnes heures à y jouer.
+        </description>
+    </comment>
+    <reviews>
+        <review rating="84/100">
+            <reviewer>IGN</reviewer>
+            <arguments>Tomodachi Life offre un humour exceptionnel, c'est amusant de rire de soi et de ses amis dans des situations absurdes.
+                Nintendo exploite pleinement ce concept à la Sims, tout en trouvant des solutions simples, accessibles et divertissantes.
+                Les voix rauques et robotiques pourraient être améliorées, mais l'effet des Mii reste original à sa manière.
+                Son rythme décontracté le rend idéal pour de courtes parties, et il me donne envie de jeter un œil à ma ville tôt et souvent.</arguments>
+        </review>
+    </reviews>
+</videogame>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videogame SYSTEM "videogame.dtd">
+<!--Raphaël Heraud-->
+
+<videogame>
+    <game id="DF" lang="FR">
+        <title>Dofus</title>
+        <date
+            day="1"
+            month="Septembre"
+            year="2004"/>
+        <platform>PC</platform>
+        <developer>Ankama Games</developer>
+        <genre>MMORPG</genre>
+        <genre>Aventure</genre>
+        <genre>Fantasy</genre>
+        <plot>Dofus est un MMORPG sorti en 2004, développé et édité par Ankama Games. Le jeu prend place dans le Monde
+        des Douze, un univers fantastique dans lequel le joueur doit retrouver les six Dofus primordiaux, des oeufs de
+        dragons surpuissants. Le joueur se balade dans un monde ouvert, où les combats, soit en Joueurs contre Monstres
+        ou Joueurs contre Joueurs, se font au tour par tour, avec une forte dimension sociale et économique.</plot>
+    </game>
+
+    <comment author="Raphaël">
+        <description>Dofus est un jeu que j'apprécie depuis plusieurs années déjà. J'y joue régulièrement avec des amis
+        à moi, notamment grâce au contenu supplémentaire ajouté régulièrement au jeu, ou même aux nombreuses activités
+        disponibles en jeu. Bien qu'un peu chronophage, c'est un MMORPG culte qui mérite amplement sa réputation. </description>
+    </comment>
+
+    <reviews>
+        <review rating="81/100">
+            <reviewer>MMORPG.com</reviewer>
+            <arguments>J'aime encore plus l'approche ludique de Dofus du gameplay MMORPG traditionnel, notamment par rapport aux fonctionnalités sandbox et sociales.</arguments>
+        </review>
+
+        <review rating="68/100">
+            <reviewer>GamingXP</reviewer>
+            <arguments>Le style de bande dessinée et l'atmosphère ironique sont agréables, mais il y a d'autres jeux du même genre qui sont beaucoup plus convaincants.</arguments>
+        </review>
+
+        <review rating="55/100">
+            <reviewer>PC Gamer</reviewer>
+            <arguments>Bien que j'aime un bon jeu en 2D, Dofus devient vite ennuyeux.</arguments>
+        </review>
+    </reviews>
+</videogame>

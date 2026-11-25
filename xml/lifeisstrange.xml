@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videogame SYSTEM "videogame.dtd">
+<!--Raphaël Heraud-->
+
+<videogame>
+    <game id="LIS" lang="FR">
+        <title>Life Is Strange</title>
+        <date
+            day="30"
+            month="Janvier"
+            year="2015"/>
+        <platform>PC</platform>
+        <platform>PlayStation 3/4</platform>
+        <platform>Xbox 360/One</platform>
+        <developer>Don't Nod Entertainment</developer>
+        <developer>Deck Nine</developer>
+        <genre>Aventure</genre>
+        <genre>Point-and-click</genre>
+        <plot>Life Is Strange tourne autout de Max Caulfield, une étudiante en photographie, à l'académie Blackwell
+        située à Arcadia Bay, une petite ville fictive de l'Oregon, où elle découvre qu'elle a la faculté de revenir
+        dans le temps sur de courtes périodes, ce qui lui permet de revenir sur les choix cornéliens de son aventure.
+        Elle s'intéresse alors à la disparition d'une étudiante et retrouve son amie d'enfance, Chloé Price.</plot>
+    </game>
+
+    <comment author="Raphaël">
+        <description>Life Is Strange est le jeu qui m'a donné le goût du jeu vidéo. C'est un jeu à choix en 5 épisodes
+        qui aborde des sujets complexes autant qu'il sait être léger par moment. Le reste de la série n'égale pas le
+        premier opus, qui s'est imposé comme un pionnier du jeu narratif.</description>
+    </comment>
+
+    <reviews>
+        <review rating="18/20">
+            <reviewer>JeuxVideo.com</reviewer>
+            <arguments>Si le jeu pèche parfois un peu côté réalisation et gameplay, c'est son écriture, son ambiance,
+                sa BO et son scénario qui arrivent à tirer le titre dans la caste des jeux dont on se souviendra
+                longtemps.</arguments>
+        </review>
+
+        <review rating="90/100">
+            <reviewer>Hardcore Gamer</reviewer>
+            <arguments>Bien que le jeu ne soit pas parfait et que certaines limites soient visibles dans chaque épisode,
+                Life Is Strange établit un nouveau précédent pour les jeux épisodiques et réaffirme pourquoi il est un
+                véritable prétendant au titre de Jeu de l’Année 2015.</arguments>
+        </review>
+
+        <review rating="70/100">
+            <reviewer>Dealspwn</reviewer>
+            <arguments>La mécanique de rembobinage est une inclusion intelligente dans le genre du drame interactif
+                et donne l'impression d'avoir un contrôle significatif sur le récit. Cela dit, on peut tout de même
+                argumenter que les choix du joueur mènent tous à une unique décision binaire, ce qui atténue quelque peu
+                l'impact émotionnel de la finale.</arguments>
+        </review>
+    </reviews>
+</videogame>

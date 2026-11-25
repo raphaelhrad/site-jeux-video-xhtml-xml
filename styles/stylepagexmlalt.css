@@ -1,0 +1,22 @@
+/*Cloé Biringer*/
+@import url("stylepagexml.css");
+
+* {
+    --body-background: #CC79A7 !important;
+    --primary-color: #000000 !important;
+    --gradient-background: linear-gradient(128deg, rgba(204,102,119,1) 0%, rgba(136,34,85,1) 100%) !important;
+    --gradient-backoff-background: rgb(204,102,119) !important;
+    color: var(--primary-color);
+}
+
+img[src*="info"] {
+    content: url("../Images/info_alt.svg");
+}
+
+img[src*="comment"] {
+    content: url("../Images/comment_alt.svg");
+}
+
+img[src*="thumb"] {
+    content: url("../Images/thumbup_alt.svg");
+}

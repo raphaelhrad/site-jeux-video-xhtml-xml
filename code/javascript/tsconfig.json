@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "../../Code/Typescript",
+    "lib": ["es2015", "dom"],
+    "rootDir": ".",
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true
+  },
+}

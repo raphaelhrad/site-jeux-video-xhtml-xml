@@ -1,0 +1,19 @@
+# IDE et éditeurs de code
+.idea/
+.vs/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Fichiers système (macOS / Windows / Linux)
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+
+# Logs et fichiers temporaires
+*.log
+npm-debug.log*

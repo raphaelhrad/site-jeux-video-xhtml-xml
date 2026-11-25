@@ -1,0 +1,14 @@
+/*Cloé Biringer*/
+
+@import url('index.css');
+
+* {
+    --body-background: #CC79A7;
+    --carousel-background:#071400;
+    --border-color: #AA4499;
+    --padding-main: 2rem;
+    --link-background: #000;
+    --primary-color: #000000;
+    --gradient-background: linear-gradient(128deg, rgba(204,102,119,1) 0%, rgba(136,34,85,1) 100%);
+    --gradient-backoff-background: rgb(204,102,119);
+}

@@ -1,0 +1,74 @@
+/*Cloé Biringer & Raphaël Heraud*/
+
+* {
+    --body-background: #000;
+    --primary-color: #7EFF00;
+    --gradient-background: linear-gradient(128deg, rgba(7,20,0,1) 0%, rgba(38,104,0,1) 100%);
+    --gradient-backoff-background: rgb(7,20,0);
+    font-family: 'Work Sans', sans-serif;
+    color: var(--primary-color);
+}
+
+body {
+    background-color: var(--body-background);
+    padding:10px;
+}
+
+h1 {
+  text-align : center;
+}
+
+main {
+    padding: 0 0 0 2em;
+}
+
+h2 ~ ul {
+    list-style: none;
+}
+
+li {
+    padding: 0 0 0 0.5rem;
+}
+
+li::marker {
+    content: "🚀";
+}
+
+/*Divers boutons, et celui de retour à l'accueil*/
+.retour-accueil a, button {
+    display: inline-block;
+    padding: 0.5rem;
+    background: var(--gradient-backoff-background);
+    background: var(--gradient-background);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    border: solid 2px var(--primary-color);
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    width: max-content;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Ajoute une flèche avant de donner la source*/
+em::before {
+    content: " → ";
+}
+
+#date {
+    background-color: var(--body-background);
+    border: none;
+    color: var(--primary-color);
+    height: 1.5em;
+    width: 3em;
+}
+
+.top-bar {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
